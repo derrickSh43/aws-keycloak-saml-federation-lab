@@ -1,0 +1,21 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+.aws/
+credentials
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local identity exports, assertions, and logs
+keycloak-saml-metadata.xml
+*realm-export*.json
+*saml*assertion*
+*.har
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
